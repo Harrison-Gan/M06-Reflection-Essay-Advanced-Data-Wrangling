@@ -1,0 +1,76 @@
+---
+title: "M06-Reflection Essay-Advanced Data Wrangling"
+author: "Harrison Gan"
+date: '`r format(Sys.time())`'
+format: 
+  html: 
+    toc: true
+    toc-depth: 4
+    number-sections: true
+    code-link: true
+    embed-resources: true
+    editor: visual
+execute: 
+  freeze: auto
+---
+
+::: callout-note
+In this assignment, I will reflect and discuss what I have learned about Advanced Data Wrangling from Module 6
+:::
+
+# Tidyverse Tricks From Step 1
+
+In this module, I learned several advanced Tidyverse techniques that extended beyond the basic data manipulation tools introduced in M05. While M05 focused primarily on core functions such as 'filter() and 'mutate()', this module introduced more efficient workflows and additional tools for handling complex datasets.
+
+In this module I learned a wide varitey of advanced Tidyverse Techniques. In comparison to Module 5, Module 6 focus techniques that extend beyond basic data manipulation tools. Module 6 made me learn more complex codes, my favorite ones being 'seperate()', which seperates data in columns for better organization. These tools allow analystst to reduce redudent codes and transform them into readible data to view efficiently. Overall these Tidyverse tricks emphasized the importance of writing concise and efficent coding to maintain clarity. 
+
+# My Thoughts on David Robinson's Presentation in Step 2 
+
+I thought that Mr. Robinson's screencast presentation was very insightful. He demonstrated his advanced knowledge of data wrangling by showing a multitude of codes that organizes data into much more concise formats. At first I was able to keep up with his codes, as the codes seemed familiar from previous assignments I had done. However,as he kept showing more and more new codes, I had keep playing portions of his showcase to fully understand his examples. As I continue to learn more about the Tidyverse tools from Mr. Robinson, I believe that I will understand more of his advanced demonstrations. After my first inital watch, I say that I understood 70% of the information he taught.
+
+# Initial vs Further Data Cleaning Videos
+
+The first intial video focused more on **intial data cleaning**, which involves preparing raw data information for analysis with codes. The second video focuses more on **further cleaning data cleaning**, where you are applying filters and removing obstructions in data to get more concise analysis on what is presented. The main difference lies in the **level of selectivity**. In step 1, you have to download and code in the data in a presentable matter to know what you are wrangling. Then in step 2, you further clean up the data with stricter filters to find specific information within the dataset code.
+
+# My Revealjs Presentation Thoughts
+
+Reavealjs presentations provide a more flexible and efficient way to create a slideshow using simple Quarto coding. In comparison to traditional presentation tools using more common applications (such as powerpoint), Reavealjs allows user to integrate their codes of data and visualizations directly into a presentable document. This is especially useful for when you need to present data analysis in a reproducable workflow. However, its only weakness is that is has a steeper learning curve in comparison to more common presentation application, as it requires some knowledge of coding. Applications such as Powerpoint offers more advanced design tools with simplier commands, which can be more efficient depending on your project.
+
+# My Revealjs Presentation
+
+https://harrison-gan.github.io/Harrison-Reavljs-Website/
+
+This presentation that I made introduces a little more about me as a student, as well as what I took from this course so far. I learned how create and polish Revealjs presentations. 
+
+# Three Useful Joining Functions
+
+First Code:
+```{r}
+#inner_join(df1, df2, by="id")
+```
+This code is useful when you want to specific observations to appear in datasets.
+
+
+Second Code:
+```{r}
+#full_join(df1, df2, by="id")
+```
+This join is useful when combining datasets while preserving all available observations.
+
+Third Code:
+```{r}
+#left_join()
+```
+This code is useful for keeping all rows from the first dataset and adds matching rows from the second dataset.
+
+# My Reflection on Data Wrangling
+
+
+One aspect I enjoyed most about working with the tools introduced in this module was the efficiency of the Tidyverse framework. The **pipe operator** allows multiple transformations to be combined into a single readable workflow, which makes the code easier to understand and maintain. I also appreciated how functions from packages like **dplyr** and **tidyr** simplify tasks that would otherwise require complex programming logic.
+
+
+# Challenges with Data Wrangling
+
+A particular challenge I encountered while learning data wrangling was remembering the syntax and purpose of the many functions available in the Tidyverse. Because there are many functions that perform similar tasks, it can sometimes be difficult to remember which function is most appropriate for a particular situation. I will overcome this challenge by continous practice. Afterall, **practice makes perfect**.
+
+# My Published Report
